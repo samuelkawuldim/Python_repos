@@ -21,3 +21,7 @@ print(b)
 print(type(b))
 print(b[2])
 print(b[5])
+a = 10
+c = 20.5
+d=("50,55,60")
+print(a,c,d)
