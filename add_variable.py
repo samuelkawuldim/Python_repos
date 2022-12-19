@@ -48,3 +48,8 @@ print("the addition of {0}and{1}is {2}".format(a, b, add))
 sub = float(a)-float(b)
 # print results
 print("the subtraction of {0}and{1}is{2}".format(a, b.sub))
+
+# print the multiplication of the number
+multily = float(a)+float(b)
+# print results
+print("the multiplocation of{0}and{1}is {2}".format(a, b, multiply))
