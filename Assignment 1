@@ -1,0 +1,66 @@
+y = 65
+x = 60.5
+b = ("samuel")
+print(type(y))
+print(type(x))
+print(type(b))
+print(y, x, b)
+
+p = ("sam,relin,rich,clear,telma,gifty")
+print(p)
+
+Name = ('samuel')
+
+first_name = 'samuel'
+surname = 'kumbong'
+full_name = (first_name + ' ' + surname)
+print(full_name)
+print(len(first_name))
+print(len(surname))
+print(full_name.endswith('kumbong'))
+
+addition = 10+5
+multiplication = 10*5
+division = 10/5
+subtraction = 10-5
+print(addition)
+print(multiplication)
+print(division)
+print(subtraction)
+
+is_adult = 'true'
+age = 17
+print('adult')
+
+if is_adult:
+    print("is_adult")
+
+if age >= 18:
+    print("adult")
+else:
+    print("not an adult")
+
+
+cars = ["bmw", "tesla", "mercedes", 'toyota', 'honda']
+for car in cars:
+    print(car.join())
+
+
+age = 18
+age2 = 17
+
+
+def check_age(age):
+    print('check function was invoked')
+
+
+check_age()
+
+if age < 18:
+    print('ooops not an adult')
+else:
+    print('horray am an adult')
+
+check_age(18)
+check_age(17)
+check_age(80)
