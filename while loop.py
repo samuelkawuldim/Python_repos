@@ -14,9 +14,9 @@
 #num = num - 1
 
 # condition: number divide by 3 is equal to or greater tyan 10
-count = 0
-num = 169
-while num >= 10:
-    num = num/3
-    count = count+1
-print(count)
+#count = 0
+#num = 169
+# while num >= 10:
+#num = num/3
+#count = count+1
+# print(count)
