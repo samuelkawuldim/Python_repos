@@ -9,10 +9,17 @@
 # checkDivisibility(5, 2)#
 
 
-def my_name(name, age):
-    print("my name is ", name)
-    print('my age is', age)
+# def my_name(name, age):
+#print("my name is ", name)
+#print('my age is', age)
 
 
 # drive program to test the above function
-my_name('samuel', '39')
+#my_name('samuel', '39')
+
+def happy_birthday():
+    print('happy birthday samuel')
+
+
+# annaymous function
+happy_birthday()
