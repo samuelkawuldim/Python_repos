@@ -22,4 +22,11 @@ def happy_birthday():
 
 
 # annaymous function
-happy_birthday()
+# happy_birthday()
+
+
+def incremant(number, by):
+    return number+by
+
+
+print(incremant(2, 1))
