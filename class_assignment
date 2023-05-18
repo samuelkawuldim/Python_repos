@@ -1,0 +1,30 @@
+def sum_even_numbers(numbers):
+    total = 0
+    for num in numbers:
+        if num % 2 == 0:  # Check if the number is even
+            total += num
+    return total
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+result = sum_even_numbers(numbers)
+print("Sum of even numbers:", result)
+
+
+# Functions without parameter
+# example 1
+def my_name():
+    print('welcome to compudemy Sammy')
+
+
+print(my_name())
+
+
+# example 2
+def my_proffession():
+    print('my name is Samuel, i am a devop engineer')
+
+
+print(my_proffession())
+
+# Functions with a parameter
