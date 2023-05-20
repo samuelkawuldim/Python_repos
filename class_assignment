@@ -28,3 +28,16 @@ def my_proffession():
 print(my_proffession())
 
 # Functions with a parameter
+
+# example
+
+
+def my_credentials(name, age, address):
+    print('hello', name, 'welcome to compudemy')
+    print('i live in', address)
+    print('i was born on', age)
+
+
+my_credentials('smauel', 'st paul', 'may 1987')
+
+# example 2
